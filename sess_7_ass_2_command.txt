@@ -1,0 +1,4 @@
+1.select sum(total_medal), country from olympic_data where sport = 'Swimming' group by country;
+2.select sum(total_medal),year from olympic_data where country = 'India' group by year;
+3.select sum(total_medal),country from olympic_data group by country;
+4.select sum(gold_medal),country from olympic_data group by country;
